@@ -1,6 +1,6 @@
 * [首页](/)
 
-* [算法](/leetcode/README)
+* [算法](/leetcode/)
 
 * Others
   * [Home Page](/)
