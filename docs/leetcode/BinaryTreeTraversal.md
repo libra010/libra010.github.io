@@ -155,4 +155,49 @@ def preOrder(self, root):
 
 二叉树的广度优先遍历又称层序遍历。
 
-详细内容参考 [LeetCode 102 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/ ':ignore') 
+详细内容参考 [LeetCode 102 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/ ':ignore')
+
+```python
+# 广度优先遍历（利用队列依次遍历）
+def bfs(root):
+    queue = [root]
+    while(queue):
+        node = queue.popleft()
+        # doSomething(root.val)
+        if(node.left):
+            queue.append(node.left)
+        if(node.right):
+            queue.append(node.right)
+            
+# 前序遍历（修改bfs以返回二位序列）
+def levelOrder(root):
+    queue = [root]
+    while(queue):
+        queueLen = len(queue)
+        for i in range(queueLen):
+            node = queue.popleft()
+            # 在这个循环中构造同一层的节点序列 level
+            if(node.left):
+                queue.append(node.left)
+            if(node.right):
+                queue.append(node.right)
+		# 将不同层的level组合起来
+```
+
+
+
+
+## 二叉树的翻转
+
+翻转二叉树其实就是对二叉树进行遍历，当根节点的左右子树都翻转之后，我们只需要交换两棵子树的位置就行了。
+
+```python
+def invertTree(root):
+    if not root:
+        return root
+    
+    left = invertTree(root.left)
+    right = invertTree(root.right)
+    root.left, root.right = right, left
+    return root
+```
