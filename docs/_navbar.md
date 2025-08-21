@@ -2,9 +2,9 @@
 
 * [CppWebServer](/CppWebServer/)
 
-* [Java](/Java)
+* [Java](/Java/)
 
-* [Spring框架](/Spring框架)
+* [Spring框架](/Spring框架/)
 
 * Others
   * [算法](/leetcode/)
