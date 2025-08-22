@@ -1,6 +1,6 @@
 * [首页](/)
 
-* [CppWebServer](/CppWebServer/)
+* [WebServer](/WebServer/)
 
 * [Java](/Java/)
 
