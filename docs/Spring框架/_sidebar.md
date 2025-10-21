@@ -10,5 +10,6 @@
   * [IoC容器 启动流程](/Spring框架/Spring-IoC容器-启动流程.md)
   * [微服务 概述](/Spring框架/微服务概述.md)
   * [微服务 相关组件](/Spring框架/微服务组件概览.md)
+  * [微服务 支撑组件](/Spring框架/微服务支撑组件.md)
   * [SpringContextUtils工具类](/Spring框架/SpringContextUtils工具类.md)
   * [Spring 动态数据源](/Spring框架/Spring-动态数据源.md)
