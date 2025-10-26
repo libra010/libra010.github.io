@@ -8,6 +8,8 @@
   * [ContextHolder 设计模式](/Java/Java-ContextHolder.md)
   * [JDK bin目录开发工具](/Java/JDK-bin目录开发工具.md)
   * [Java 一些底层规范的介绍](/Java/Java底层规范.md)
+  * [垃圾回收算法](/Java/垃圾回收算法.md)
+  * [JVM调优](/Java/JVM调优.md)
 
 * [**微服务**](/微服务/)
   * [微服务 概述](/微服务/微服务概述.md)
