@@ -26,7 +26,10 @@ Here is the posts.
 [微服务 概述](/微服务/微服务概述.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [微服务 相关组件](/微服务/微服务组件概览.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [微服务 支撑组件](/微服务/微服务支撑组件.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[服务网关](/微服务/服务网关.md)
+[服务网关](/微服务/服务网关.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[消息队列概述](/微服务/消息队列概述.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[消息队列实现](/微服务/消息队列实现.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[分布式事务](/微服务/分布式事务.md)
 
 ### Spring框架
 
